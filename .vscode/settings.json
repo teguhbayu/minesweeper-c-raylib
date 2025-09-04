@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        ".fantomasignore": "ignore",
+        "stdlib.h": "c",
+        "raylib.h": "c",
+        "sqlite3.h": "c",
+        "raymath.h": "c",
+        "time.h": "c",
+        "cells.h": "c",
+        "stdio.h": "c",
+        "utils.h": "c",
+        "stdbool.h": "c",
+        "buttons.h": "c"
+    }
+}
