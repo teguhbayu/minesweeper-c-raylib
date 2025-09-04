@@ -18,5 +18,5 @@ void DrawButton(Button button)
         }
     }
     DrawRectangleRounded(rect, 0.05, 2, isHovered ? (Color){125, 125, 125, 255} : (Color){255, 255, 255, 255});
-    DrawText(button.text, x + button.width / 2 - MeasureText(button.text, 30) + 20, y + button.height / 2 - 13, 30, (Color){0, 0, 0, 255});
+    DrawText(button.text, x + button.width / 2 - MeasureText(button.text, 30) + 45, y + button.height / 2 - 10, 30, (Color){0, 0, 0, 255});
 }

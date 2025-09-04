@@ -72,14 +72,17 @@ void DrawEndWindow(Game *mainGame, void (*reset)(void))
 
     Button button = {
         .height = 54,
-        .width = 100,
-        .text = "Ok",
+        .width = 160,
+        .text = "Reset",
         .winH = Winh,
         .winW = Winw,
         .handler = &clickHandled,
         .game = mainGame,
         .reset = reset};
 
+    char overText[] = "Boom!";
+
     DrawRectangleRounded(rect, 0.05, 2, (Color){30, 30, 30, 255});
+    DrawText(overText, rect.x + Winw / 2 - 0 - 65, rect.y + Winh / 2 - 40, 50, (Color){255, 120, 120, 255});
     DrawButton(button);
 }
